@@ -243,7 +243,7 @@ void print_meau_sort_hand();
 
 **其它**
 
-(結構為 index和所在的列序號)
+* 結構為 index和所在的列序號
 ```cpp
 typedef struct _last_status{
 	int32_t last;
@@ -251,7 +251,7 @@ typedef struct _last_status{
 }last_status;
 ```
 
-(qsort根據last的數值排序)
+* qsort根據last的數值排序
 ```cpp
 int32_t compare(const void *a, const void *b){
 	if (((last_status *) a)->last > \
@@ -260,7 +260,7 @@ int32_t compare(const void *a, const void *b){
 }
 ```
 
-(cards和id的紀錄)
+* cards和id的紀錄
 ```cpp
 int32_t CSIE_40771131H_cards[10] = {0};
 int32_t CSIE_40771131H_id =0;
@@ -268,7 +268,7 @@ int32_t CSIE_40771131H_id =0;
 
 **其它擴增函式**
 
-其它撰寫有關讀檔、存檔和電腦分級的函式，在程式黨內有註解介紹
+其它撰寫有關讀檔、存檔和電腦分級的函式，在程式檔內有註解介紹
 
 ---
 
