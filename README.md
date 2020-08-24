@@ -1,6 +1,7 @@
 # 誰是牛頭王 Take 6!
 
-* Programming design II -- final project
+**Programming design II**
+* Final project
 * Due to **6/29 AM 00:05**
 * Teacher: 紀博文
 
@@ -243,7 +244,7 @@ void print_meau_sort_hand();
 
 **其它**
 
-* 結構為 index和所在的列序號
+(結構為 index和所在的列序號)
 ```cpp
 typedef struct _last_status{
 	int32_t last;
@@ -251,7 +252,7 @@ typedef struct _last_status{
 }last_status;
 ```
 
-* qsort根據last的數值排序
+(qsort根據last的數值排序)
 ```cpp
 int32_t compare(const void *a, const void *b){
 	if (((last_status *) a)->last > \
@@ -260,7 +261,7 @@ int32_t compare(const void *a, const void *b){
 }
 ```
 
-* cards和id的紀錄
+(cards和id的紀錄)
 ```cpp
 int32_t CSIE_40771131H_cards[10] = {0};
 int32_t CSIE_40771131H_id =0;
@@ -278,3 +279,4 @@ int32_t CSIE_40771131H_id =0;
 * 普通規則、特殊規則可選擇
 * 電腦AI共三層分級
 * 接受2-10人遊玩
+
