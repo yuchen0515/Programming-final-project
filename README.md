@@ -24,7 +24,6 @@
 |:--|:--|
 |40771131H_project.c|主程式|
 |40771131H_contest.h|function prototype & contest的函式|
-|contest.c|TA's contest code|
 |Makefile|complier the project|
 |README.md|說明|
 
