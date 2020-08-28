@@ -34,12 +34,20 @@
 
 ## 三、How to run?
 
-```bash
+### (一) 教學
+
+```shell
 $ make
 $ ./40771131H_project
 ```
 
 接著直接按照介面提示即可進行遊戲
+
+### (二) Demo
+
+![](https://i.imgur.com/GOcQS9m.gif)
+
+
 
 ---
 
