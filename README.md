@@ -34,7 +34,12 @@
 
 ## 三、How to run?
 
-### (一) 教學
+
+### (一) Demo
+
+![](https://i.imgur.com/GOcQS9m.gif)
+
+### (二) Sample Tutorial
 
 ```shell
 $ make
@@ -43,15 +48,14 @@ $ ./40771131H_project
 
 接著直接按照介面提示即可進行遊戲
 
-### (二) Demo
-
-![](https://i.imgur.com/GOcQS9m.gif)
-
-
-
 ---
 
 ## 四、規則
+
+Source: http://www.swanpanasia.com/products/take-6
+
+![](https://i.imgur.com/ZmygTkf.gif)
+
 
 ### (一) 普通規則
 
